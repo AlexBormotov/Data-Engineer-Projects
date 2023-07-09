@@ -5,7 +5,7 @@
 
 Here are some completed projects
 
-| #    | Наименование проекта                | Описание                                                     | Стек                                                         |
+| #    | Project name                | Description                                                     | Stek                                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1.   | [Data Streaming Project](https://github.com/AlexBormotov/Data-Engineer-Projects/tree/main/Data-Streaming-Project) | Delivery aggregator need to apllication <br/>which will deliver special offer with <br/>short time expiration to all nearby customers | python, pyspark, spark sreaming, kafka, docker, postgresql |
 | 2.   | [Cloud Technologies Project](https://github.com/AlexBormotov/Data-Engineer-Projects/tree/main/Cloud-Technologies-Project) | Fintech sturtup need <br/>the ability to analyze user <br/>transactions on dashboard | python, flask, redis, container registry, kubernetes, kafka, docker, cloud technologies |
