@@ -20,8 +20,8 @@ Directory `img` have images with result
 
 Directory `solution` have folders:
 - `/solution/service_dds` - Here we have files and folders with app that create and fill DDS-layer
--- `/solution/service_dds/app` - Files for Kubernetes
--- `/solution/service_dds/src` - Main service files with data-loader and libraries
+  - `/solution/service_dds/app` - Files for Kubernetes
+  - `/solution/service_dds/src` - Main service files with data-loader and libraries
 - `/solution/service_cdm` - Here we have files and folders with app that create and fill CDM-layer with the same structure as DDS
 
 Directory `stg` have folders with source STG-layer
