@@ -1,0 +1,43 @@
+# Let's use the official image to run python.
+FROM python:3.10
+
+ARG REDIS_HOST
+ARG REDIS_PORT
+ARG REDIS_PASSWORD
+
+ARG KAFKA_HOST
+ARG KAFKA_PORT
+ARG KAFKA_CONSUMER_USERNAME
+ARG KAFKA_CONSUMER_PASSWORD
+ARG KAFKA_CONSUMER_GROUP
+ARG KAFKA_SOURCE_TOPIC
+ARG KAFKA_DESTINATION_TOPIC
+
+ARG PG_WAREHOUSE_HOST
+ARG PG_WAREHOUSE_PORT
+ARG PG_WAREHOUSE_DBNAME
+ARG PG_WAREHOUSE_USER
+ARG PG_WAREHOUSE_PASSWORD
+
+# Let's update the components in the container.
+RUN apt-get update -y
+
+# Copy all files to the container.
+COPY . .
+
+# We start installing dependencies.
+RUN pip install -r requirements.txt
+
+# Install a certificate for connecting to resources in Yandex Cloud.
+RUN mkdir -p /crt
+RUN wget "https://storage.yandexcloud.net/cloud-certs/CA.pem" --output-document /crt/YandexInternalRootCA.crt
+RUN chmod 0600 /crt/YandexInternalRootCA.crt
+
+# Go to the src directory
+WORKDIR /src
+
+# We say that we will run python.
+ENTRYPOINT ["python"]
+
+# Namely, the app.py file in the src directory.
+CMD ["app.py"]
