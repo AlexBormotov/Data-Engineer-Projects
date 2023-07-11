@@ -25,7 +25,7 @@ postgresql_settings = {
     'driver': 'org.postgresql.Driver',
     'dbtable': 'subscribers_restaurants',
     'user': 'student',
-    'password': 'de-student',
+    'password': 'password',
 }
 
 # subtract all users with a subscription to restaurants
