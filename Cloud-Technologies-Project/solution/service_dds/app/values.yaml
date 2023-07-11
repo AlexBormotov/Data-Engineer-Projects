@@ -17,7 +17,7 @@ config:
   KAFKA_HOST: 'rc1a-2slpcgv1j2fn4t99.mdb.yandexcloud.net'
   KAFKA_PORT: '9091'
   KAFKA_CONSUMER_USERNAME: 'producer_consumer'
-  KAFKA_CONSUMER_PASSWORD: 'booy@123'
+  KAFKA_CONSUMER_PASSWORD: 'password'
   KAFKA_CONSUMER_GROUP: 'main-consumer-group'
   KAFKA_SOURCE_TOPIC: 'stg-service-orders'
   KAFKA_DDS_SERVICE_ORDERS_TOPIC: 'dds-service-orders'
@@ -26,7 +26,7 @@ config:
   PG_WAREHOUSE_PORT: '6432'
   PG_WAREHOUSE_DBNAME: 'sprint9dwh'
   PG_WAREHOUSE_USER: 'db_user'
-  PG_WAREHOUSE_PASSWORD: 'booy@123'
+  PG_WAREHOUSE_PASSWORD: 'password'
 
 imagePullSecrets: []
 nameOverride: ""
