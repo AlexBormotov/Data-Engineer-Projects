@@ -17,20 +17,20 @@ config:
   KAFKA_HOST: 'rc1a-2slpcgv1j2fn4t99.mdb.yandexcloud.net'
   KAFKA_PORT: '9091'
   KAFKA_CONSUMER_USERNAME: 'producer_consumer'
-  KAFKA_CONSUMER_PASSWORD: 'booy@123'
+  KAFKA_CONSUMER_PASSWORD: 'password'
   KAFKA_CONSUMER_GROUP: 'main-consumer-group'
   KAFKA_SOURCE_TOPIC: 'order-service_orders'
   KAFKA_STG_SERVICE_ORDERS_TOPIC: 'stg-service-orders'
 
   REDIS_HOST: 'c-c9q4rpe8qdjr4ijmqan4.rw.mdb.yandexcloud.net'
   REDIS_PORT: '6380'
-  REDIS_PASSWORD: 'booy@123'
+  REDIS_PASSWORD: 'password'
 
   PG_WAREHOUSE_HOST: 'rc1b-0msvqf7gg4v8rcel.mdb.yandexcloud.net'
   PG_WAREHOUSE_PORT: '6432'
   PG_WAREHOUSE_DBNAME: 'sprint9dwh'
   PG_WAREHOUSE_USER: 'db_user'
-  PG_WAREHOUSE_PASSWORD: 'booy@123'
+  PG_WAREHOUSE_PASSWORD: 'password'
 
 imagePullSecrets: []
 nameOverride: ""
