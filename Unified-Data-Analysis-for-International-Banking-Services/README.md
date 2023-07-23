@@ -23,3 +23,7 @@ Directory `src` have folders:
 
 ### Stek
 `python` , `airflow`, `kafka`, `cloud technologies`, `postgresql`, `vertica`
+
+### Project status: 
+
+Done.
