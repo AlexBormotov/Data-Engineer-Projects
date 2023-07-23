@@ -22,6 +22,6 @@ Directory `src` have folder `/scripts` - here is the main script of the project 
 
 `python`, `pyspark`, `spark sreaming`, `kafka`, `docker`, `postgresql`
 
-### Project status: 
+### Project status
 
-Done.
+Done
