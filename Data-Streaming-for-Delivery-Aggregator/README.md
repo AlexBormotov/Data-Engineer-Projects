@@ -3,8 +3,8 @@
 ### Discription
 
 Delivery aggregator need to apllication which will deliver special offer with short time expiration to all nearby customers. 
-We have data-streaming with nearest customers to the restaurant and data with the offers of all restaurants. 
-We need to catch data-streming, compare with the offer dates and send a push-message with offer to customer if curent date and time is less then the offer validity period.
+I have data-streaming with nearest customers to the restaurant and data with the offers of all restaurants. 
+I need to catch data-streming, compare with the offer dates and send a push-message with offer to customer if curent date and time is less then the offer validity period.
 
 ### Realization
 
