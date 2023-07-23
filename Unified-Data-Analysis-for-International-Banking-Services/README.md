@@ -3,7 +3,7 @@ Final project of Yandex.Practicum Data Engineering course
 
 ### Discription
 
-A fintech startup that provides international banking services wants to conduct a unified data analysis. Our task is to combine information from different sources and prepare it for analytics. As a result they need a dashboard with 4 key metrics
+A fintech startup that provides international banking services wants to conduct a unified data analysis. My task is to combine information from different sources and prepare it for analytics. As a result they need a dashboard with 4 key metrics
 
 ### Realization
 
