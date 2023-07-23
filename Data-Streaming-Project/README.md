@@ -17,3 +17,7 @@ We need to catch data-streming, compare with the offer dates and send a push-mes
 ### Repository structure
 
 Directory `src` have folder `/scripts` - here is the main script of the project and 2 test scripts that were needed during the construction of the main script
+
+### Stek
+
+`python`, `pyspark`, `spark sreaming`, `kafka`, `docker`, `postgresql`
