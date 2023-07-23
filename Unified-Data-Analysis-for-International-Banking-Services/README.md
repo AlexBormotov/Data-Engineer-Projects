@@ -22,8 +22,9 @@ Directory `src` have folders:
 - `/src/img` - exapmle of data and proof of streaming work
 
 ### Stek
+
 `python` , `airflow`, `kafka`, `cloud technologies`, `postgresql`, `vertica`
 
-### Project status: 
+### Project status
 
-Done.
+Done
