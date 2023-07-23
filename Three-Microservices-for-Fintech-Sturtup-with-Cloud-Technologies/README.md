@@ -3,7 +3,7 @@
 ### Discription
 
 Fintech sturtup with application that provides the possibility of international bank transfers.
-They need the ability to analyze user transactions, and for this they need to create a data warehouse and build a dashboard.
+They need the ability to analyze user transactions. I need to create a data warehouse and build a dashboard where my customer will analyze the data.
 
 ### Realization
 
