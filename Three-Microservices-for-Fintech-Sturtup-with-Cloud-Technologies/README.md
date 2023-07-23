@@ -30,6 +30,6 @@ Directory `stg` have folders with source STG-layer
 
 `python`, `flask`, `redis`, `container registry`, `kubernetes`, `kafka`, `docker`, `cloud technologies`
 
-### Project status: 
+### Project status
 
-Done.
+Done
