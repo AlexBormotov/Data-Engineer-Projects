@@ -29,3 +29,7 @@ Directory `stg` have folders with source STG-layer
 ### Stek
 
 `python`, `flask`, `redis`, `container registry`, `kubernetes`, `kafka`, `docker`, `cloud technologies`
+
+### Project status: 
+
+Done.
