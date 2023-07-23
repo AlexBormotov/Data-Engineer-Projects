@@ -1,5 +1,5 @@
 # Unified Data Analysis for International Banking Services. 
-## Final project of Yandex.Practicum Data Engineering course
+Final project of Yandex.Practicum Data Engineering course
 
 ### Discription
 
