@@ -1,4 +1,5 @@
-# International Banking Services. Final project of Yandex.Practicum Data Engineering course
+# Unified Data Analysis for International Banking Services. 
+## Final project of Yandex.Practicum Data Engineering course
 
 ### Discription
 
@@ -19,3 +20,6 @@ Directory `src` have folders:
 - `/src/dags` - AirFlow DAGs, which provide data from source to storage and second DAG, which refresh data mart.
 - `/src/sql` - SQL-queries for crating tables in `STAGING`- and `DWH`-layers, plus additional script for creating data mart.
 - `/src/img` - exapmle of data and proof of streaming work
+
+### Stek
+`python` , `airflow`, `kafka`, `cloud technologies`, `postgresql`, `vertica`
