@@ -25,3 +25,7 @@ Directory `solution` have folders:
 - `/solution/service_cdm` - Here we have files and folders with app that create and fill CDM-layer with the same structure as DDS
 
 Directory `stg` have folders with source STG-layer
+
+### Stek
+
+`python`, `flask`, `redis`, `container registry`, `kubernetes`, `kafka`, `docker`, `cloud technologies`
